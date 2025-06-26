@@ -19,7 +19,6 @@ const main = (currentTime) => {
 
     lastRenderTime = currentTime;
     update();
-    SNAKE_SPEED=currentTime/3000+5;
     draw();
 }
 
