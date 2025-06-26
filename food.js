@@ -3,6 +3,7 @@ const EXPANSION_RATE = 1;
 
 const updateFood = () => {
     if (onSnake(food)) {
+        SNAKE_SPEED+=1/25;
         expandSnake(EXPANSION_RATE);
         food = getRandomFoodPosition();
     }
